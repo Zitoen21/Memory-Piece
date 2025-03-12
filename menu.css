@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('img/wanobackground.jpg') no-repeat center center/cover;
+    overflow: hidden;
+}
+
+
+#game-title {
+    font-family: 'Pirata One', cursive;
+    font-size: 60px;
+    color: #123E8A;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    transform: rotate(-10deg);
+}
+
+#play-button {
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+#play-button:hover {
+    transform: scale(1.1);
+}
+
+.title-text {
+    display: flex;
+    top: 40px;
+    left: 460px;
+    position: absolute;
+}
